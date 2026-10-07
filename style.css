@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /* CSS Document 
 
 Tooplate 2155 Modern Musician
@@ -903,8 +904,16 @@ section {
            Contact Section
            =========================================== */
 .contact {
-	background-color: var(--color-primary-light);
+	background-color: var(--color-primary-dark);
 	padding: var(--space-xl) 0;
+}
+
+#testimonials{
+	background-color: var(--color-primary-light);
+}
+
+.contact-info{
+	font-weight: 600;
 }
 
 .contact-grid {
@@ -1124,6 +1133,7 @@ section {
 	.work-grid {
 		grid-template-columns: repeat(3, 1fr);
 	}
+
 	.testimonials-grid {
 		grid-template-columns: repeat(2, 1fr);
 	}

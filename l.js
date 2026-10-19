@@ -1,0 +1,1 @@
+console.log("Tot tipus de intervencions al teu vehicle, manteniments, revisions, reparacion d'un vehicle a combustio".length)
